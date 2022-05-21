@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "zones",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "zone10", "city": "ATHERTON", "shape_area": "null", "incorporat": "null", "shape_leng": "null", "address": "null", "apn": "null", "stroke": "#67fe71", "stroke-width": "1", "stroke-opacity": "0.5", "fill": "#67fe71", "fill-opacity": "0.200000", "price": "0.420000", "shape": "Polygon", "name": "null", "category": "default" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -122.22905992283934, 37.425288845868543 ], [ -122.228401955399292, 37.424709834521295 ], [ -122.225520058011853, 37.424683515823695 ], [ -122.225125277547818, 37.424367691452467 ], [ -122.224519947502969, 37.424104504476446 ], [ -122.223269809366869, 37.425288845868543 ], [ -122.223111897181255, 37.425552032844571 ], [ -122.224388354014962, 37.426354753121437 ], [ -122.227941378191247, 37.426999561212689 ], [ -122.22905992283934, 37.425288845868543 ] ] ] ] } }
+]
+}
