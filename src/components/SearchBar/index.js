@@ -58,7 +58,6 @@ const SearchBar = ({ suggestions, moveToPoly }) => {
             setInput(addr);
             setActiveSuggestionIndex(0);
             setShowSuggestions(false);
-
             moveToPoly(sugg)
         }
         // User pressed the up arrow

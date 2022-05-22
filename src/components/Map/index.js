@@ -342,10 +342,11 @@ export default function Maplibre() {
 
     const moveToPoly = (poly) => {
 
+        console.log('poly', poly);
         if (poly) {
             const box = bbox(poly);
             const boxPolygon = bboxPolygon(box);
-            map.fitBounds(boxPolygon.bbox, { padding: 250, duration: 0 });
+            map.fitBounds(boxPolygon.bbox, { padding: 0, duration: 0 });
 
             map.setFilter('highlighted', ['in', 'id', '']); // Clear all
             map.setFilter('highlighted', ['in', 'id', poly.properties.id]);
